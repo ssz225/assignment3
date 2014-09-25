@@ -1,0 +1,5 @@
+1. The os.path.abspath function is defined in the file /usr/lib/python2.7/posixpath.py, as seen via the import os followed by os.path.abspath?? commands.
+2. Using the command num = !ls | wc -l, the count for number of files in the /etc directory is 232, which is set to the variable named "num." If hidden files are also considered via num = !ls -a | wc -l, num would be 236.
+3. The square root of num is 15.231546211727817 without hidden files considered, and 15.362291495737216 with the hidden files considered.
+4. x*x is the fastest operation with 10000000 loops, best of 3 at 60 ns per loop in comparison to x**2 at 82.6 ns per loop and numpy.square(x) at 1.98 µs per loop.
+5. There are 24 cell magic commands.
